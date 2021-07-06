@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,21 +26,21 @@
                 <img src="resources/img/logo-white.png" alt="Food logo" class="logo">
                 <img src="resources/img/logo.png" alt="Food logo" class="logo-black">
                 <ul class="main-nav">
-                    <li><a href="#">Maisto pristatymas</a></li>
-                    <li><a href="#">Kaip užsisakyti</a></li>
-                    <li><a href="#">Miestai</a></li>
-                    <li><a href="#">Prisijungti</a></li>
+                    <li><a href="#features">Maisto pristatymas</a></li>
+                    <li><a href="#works">Kaip užsisakyti</a></li>
+                    <li><a href="#cities">Miestai</a></li>
+                    <li><a href="#plans">Planai</a></li>
                 </ul>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>Viso gero nesveikas maiste. Labas sveikas maiste.</h1>
-            <a class="btn btn-full" href="#">Aš alkanas</a>
-            <a class="btn btn-ghost" href="#">Pamatyti daugiau</a>
+            <a class="btn btn-full js--scroll-to-plans" href="#">Aš alkanas</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#">Sužinoti daugiau</a>
         </div>
     </header>
 
-    <section class="section-features js--section-features">
+    <section class="section-features js--section-features" id="features">
         <div class="row">
             <h2>Gauk maistą greitai &mdash; ne greitą maistą</h2>
             <p class="long-copy">
@@ -47,7 +48,7 @@
             </p>
         </div>
 
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-4 box">
                 <i class="ion-ios-infinite-outline icon-big"></i>
                 <h3>365 dienas per metus</h3>
@@ -118,13 +119,13 @@
         </ul>
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps" id="works">
         <div class="row">
             <h2>Kaip užsisakyti &mdash; paprasta, kaip 1, 2, 3</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img src="resources/img/app-iPhone.png" alt="Food on Iphone" class="app-screen">
+                <img src="resources/img/app-iPhone.png" alt="Food on Iphone" class="app-screen js--wp-2">
             </div>
             <div class="col span-1-of-2 steps-box">
                 <div class="works-step">
@@ -146,11 +147,11 @@
         </div>
     </section>
 
-    <section class="section-cities">
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>Mus rasite šiuose miestuose</h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-3">
             <div class="col span-1-of-4 box">
                 <img src="./resources/img/vilnius.jpeg" alt="Vilnius">
                 <h3>Vilnius</h3>
@@ -246,13 +247,13 @@
         </div>
     </section>
 
-    <section class="section-plans">
+    <section class="section-plans js--section-plans" id="plans">
         <div class="row">
             <h2>Pradėkite sveikai valgyti jau šiandien</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                     <div>
                         <h3>Premium</h3>
                         <p class="plan-price">399 € <span> /mėn.</span></p>
